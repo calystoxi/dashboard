@@ -21,12 +21,14 @@ function App() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        <button onClick={() => setCount(0)}>Reset</button>
+
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logossss to learn more
+        Click on the Vite and React logos to learn more
       </p>
     </>
   )
